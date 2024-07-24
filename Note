@@ -1,0 +1,4 @@
+1. your system must require necessary GUI support,else openCV can be used but won't be displayed
+2. Run the following command to get information about your OpenCV build:
+       python -c "import cv2; 
+       print(cv2.getBuildInformation())"
